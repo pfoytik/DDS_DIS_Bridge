@@ -1,0 +1,79 @@
+# ROS2 Build Artifacts
+build/
+install/
+log/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# C++ Build Artifacts
+*.o
+*.a
+*.so
+*.so.*
+*.dylib
+*.exe
+*.out
+*.app
+
+# Generated Files
+*.autosave
+*~
+*.swp
+*.swo
+*~
+
+# IDE Files
+.vscode/
+.idea/
+*.sublime-*
+.clangd/
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Python Cache (if any Python nodes added later)
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# Backup Files
+*.bak
+*.backup
+*.tmp
+
+# Log Files
+*.log
+
+# ROS Specific
+.catkin_workspace
+devel/
+
+# Package-specific ignores
+src/my_cpp_package/build/
+
+# Keep important files - these should NOT be ignored
+# README.md
+# src/
+# CMakeLists.txt (top level if you create one)
+
+# Test artifacts
+captured_packets.pcap
+*.pcap
